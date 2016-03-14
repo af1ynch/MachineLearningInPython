@@ -67,6 +67,3 @@ def classify0(in_x, data_set, labels, k):
     sorted_class_count = sorted(class_count.iteritems(), key=operator.itemgetter(1), reverse=True)
     return sorted_class_count[0][0]
 
-
-if __name__ == '__main__':
-    handwriting_class_test()
